@@ -1,0 +1,41 @@
+{
+  "task_id": "excel-01",
+  "agent": "dryrun",
+  "date": "2026-09-11",
+  "run_dir": "runs/2026-09-11-dryrun/excel-01",
+  "checked_at": "2026-09-11T13:01:08",
+  "auto": [
+    {
+      "id": "sheet_exists",
+      "name": "「集計」シートが存在する",
+      "pass": true,
+      "detail": "シート: ['明細', '集計']"
+    },
+    {
+      "id": "pivot_match",
+      "name": "担当者×月の金額が明細と一致",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "total_match",
+      "name": "担当者ごとの合計が一致",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "share_sum",
+      "name": "構成比が正しく合計100%",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "detail_intact",
+      "name": "「明細」シートが改変されていない",
+      "pass": true,
+      "detail": "行数 300(期待 300), 金額合計 110,074,800(期待 110,074,800)"
+    }
+  ],
+  "manual_total": 2,
+  "recorded_to": null
+}

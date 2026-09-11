@@ -1,0 +1,26 @@
+{
+  "to": [
+    "sato@example.co.jp",
+    "suzuki@example.co.jp",
+    "takahashi@example.co.jp"
+  ],
+  "subject_prefix": "【日程調整】",
+  "slots": [
+    [
+      9,
+      16,
+      15,
+      0,
+      16,
+      0
+    ],
+    [
+      9,
+      17,
+      11,
+      0,
+      12,
+      0
+    ]
+  ]
+}
